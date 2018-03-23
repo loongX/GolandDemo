@@ -1,5 +1,6 @@
 package main
 import (
+	_ "github.com/CodyGuo/godaemon"
 	"bufio"
 	"fmt"
 	"net"
