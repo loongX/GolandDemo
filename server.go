@@ -9,7 +9,7 @@ import (
 func main() {
 	var tcpAddr *net.TCPAddr
 
-	tcpAddr, _ = net.ResolveTCPAddr("tcp", "127.0.0.1:9999")
+	tcpAddr, _ = net.ResolveTCPAddr("tcp", "0.0.0.0:9999")
 
 	tcpListener, _ := net.ListenTCP("tcp", tcpAddr)
 
